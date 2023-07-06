@@ -1,0 +1,8 @@
+.video{
+    margin: 0 60px;
+}
+@media only screen and (max-width: 600px) {
+    .video{
+        margin: 0 10px;
+    }
+}

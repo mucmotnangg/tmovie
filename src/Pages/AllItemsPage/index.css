@@ -1,0 +1,36 @@
+.AllItems{
+    margin: 0px 60px;
+    padding-top: 10px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 10px;
+}
+
+.pagination{
+    justify-content: center;
+    margin: 20px 0;
+}
+button, input, optgroup, select, textarea {
+    font-size: revert;
+    line-height: normal;
+    font-family: revert;
+}
+ul{
+    margin-bottom: 0;
+}
+
+.AllItems-heading{
+    padding-top: 70px;
+    margin: 0 60px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding-bottom: 13px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+ul{
+    padding-left: 0;
+}

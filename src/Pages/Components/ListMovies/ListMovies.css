@@ -1,0 +1,38 @@
+.listMovies{
+    position: relative;
+    margin: 0 30px;
+    padding: 0 30px;
+    width: 100wh;
+}
+.listMovies .title{
+    text-transform: capitalize;
+}
+.list{
+    display: flex;
+    column-gap: 10px;
+    overflow-y: auto;
+    padding: 10px 0;
+    transform: translate(0px);
+    transition: all 1s ease;
+    /* width: max-content; */
+}
+.list::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+@media only screen and (max-width: 600px) {
+    .left, .right{
+        font-size: 20px;
+
+    }
+    .listMovies{
+        margin: 0;
+    }
+}
+
+.listMovies_header{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

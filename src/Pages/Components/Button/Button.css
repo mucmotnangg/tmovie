@@ -1,0 +1,17 @@
+.button{
+    background: transparent;
+    border: 2px orange solid;
+    border-radius: 35px;
+    padding: 5px 30px;
+    font-size: 20px;
+    height: 36px;
+}
+
+.button:hover{
+    background-color: orange;
+    color: white;
+}
+
+.button i{
+    margin-left: 5px;
+}

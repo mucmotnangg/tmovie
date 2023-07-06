@@ -1,0 +1,45 @@
+.movie{
+position: relative;
+
+}
+.movie-img{
+    width: 250px;
+    max-height: 340px;
+    border-radius: 15px;
+}
+.movie-status {
+    margin-left: 5px;
+}
+.movie-status i {
+    margin-left: 5px;
+    color: rgb(227, 227, 15);
+}
+.movie-content{
+position: absolute;
+bottom: 5px;
+left: 4px;
+color: white;
+margin: 0;
+display: none;
+}
+
+.movie-name{
+font-size: 20px;
+font-weight: 600;
+padding: 0 4px;
+}
+
+.movie:hover .movie-content{
+    display: block;
+}
+.movie:hover .movie-img{
+    transform: scale(1.04, 1.1);
+    animation: ease 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .movie-img{
+        width: 200px;
+        height: 150px;
+        }
+}

@@ -1,0 +1,40 @@
+.slider{
+    position: relative;
+}
+
+.slider-img{
+    width: 100%;
+    max-height: 90vh;
+}
+.slider-content{
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+    width: 45%;
+    color: white;
+}
+.slider-name{
+padding: 20px 0;
+}
+
+.slider-script{
+    font-weight: 400;
+}
+
+.slider_button-play{
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.slider_button-play i{
+    margin-left: 10px;
+}
+.slider_button-play:hover{
+    background-color: #ffa458;
+    color: white;
+}
